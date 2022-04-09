@@ -35,8 +35,11 @@
 
 ## 参考文献
 [1] Yao, Y., Liang, Z., Yuan, Z., Liu, P., Bie, Y., Zhang, J., ... & Guan, Q. (2019). A human-machine adversarial scoring framework for urban perception assessment using street-view images. International Journal of Geographical Information Science, 33(12), 2363-2384.
+
 [2] Helbich, M., Yao, Y., Liu, Y., Zhang, J., Liu, P., & Wang, R. (2019). Using deep learning to examine street view green and blue spaces and their associations with geriatric depression in Beijing, China. Environment international, 126, 107-117.
+
 [3] Yao, Y., Wang, J., Hong, Y., Qian, C., Guan, Q., Liang, X., ... & Zhang, J. (2021). Discovering the homogeneous geographic domain of human perceptions from street view images. Landscape and Urban Planning, 212, 104125.
+
 [4] Yao, Y., Zhang, J., Qian, C., Wang, Y., Ren, S., Yuan, Z., & Guan, Q. (2021). Delineating urban job-housing patterns at a parcel scale with street view imagery. International Journal of Geographical Information Science, 35(10), 1927-1950.
 
 
@@ -79,6 +82,9 @@ This folder mainly contains a script file for getting street view and an output 
 
 ## References
 [1] Yao, Y., Liang, Z., Yuan, Z., Liu, P., Bie, Y., Zhang, J., ... & Guan, Q. (2019). A human-machine adversarial scoring framework for urban perception assessment using street-view images. International Journal of Geographical Information Science, 33(12), 2363-2384.
+
 [2] Helbich, M., Yao, Y., Liu, Y., Zhang, J., Liu, P., & Wang, R. (2019). Using deep learning to examine street view green and blue spaces and their associations with geriatric depression in Beijing, China. Environment international, 126, 107-117.
+
 [3] Yao, Y., Wang, J., Hong, Y., Qian, C., Guan, Q., Liang, X., ... & Zhang, J. (2021). Discovering the homogeneous geographic domain of human perceptions from street view images. Landscape and Urban Planning, 212, 104125.
+
 [4] Yao, Y., Zhang, J., Qian, C., Wang, Y., Ren, S., Yuan, Z., & Guan, Q. (2021). Delineating urban job-housing patterns at a parcel scale with street view imagery. International Journal of Geographical Information Science, 35(10), 1927-1950.
