@@ -1,4 +1,4 @@
-# 百度街景获取
+# 百度街景爬虫
 
 　　该项目用于根据指定的wgs84经纬度坐标获取对应位置的百度地图的街景图像。
 
@@ -35,7 +35,7 @@
 
 
 
-# Baidu Street View Acquisition
+# Baidu Street View Spider
 
 This project is used to get the street view image of Baidu map at the corresponding location based on the specified wgs84 latitude and longitude coordinates.
 
@@ -69,9 +69,3 @@ This folder mainly contains a script file for getting street view and an output 
 5. If the error is reported as no response from the connected host, you need to extend the sleep time in line 158 to a multiple of 3 appropriately.
 6. the street view file is named as follows: longitude latitude angle pitch angle, if the crawl is successful, each point will crawl 0 degree, 90 degree, 180 degree and 270 degree street view.
 7. wgs84 coordinates will be automatically converted to Baidu's coordinates in the program using the wgs2bd09mc function, no additional operation is needed.
-
-
-
-
-
-
