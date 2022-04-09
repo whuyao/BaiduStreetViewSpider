@@ -58,7 +58,7 @@ This folder mainly contains a script file for getting street view and an output 
 + dir folder: the input files of the script and the output street view images and crawl failure information. This folder contains mainly the following files:
   1. point_coordinate_50, point_coordinate_100 and point_coordinate_intersect are the latitude and longitude information of the missing 50m encrypted points, 100m encrypted points and road intersections of the road network respectively.
   2. the error file is the information of the corresponding failed points.
-  3. images folder holds the images of successfully crawled street view.
+  3. images folder will save the images of successfully crawled street view.
 
 ## Environment dependency
 
