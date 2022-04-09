@@ -43,6 +43,9 @@
 [4] Yao, Y., Zhang, J., Qian, C., Wang, Y., Ren, S., Yuan, Z., & Guan, Q. (2021). Delineating urban job-housing patterns at a parcel scale with street view imagery. International Journal of Geographical Information Science, 35(10), 1927-1950.
 
 
+## 声明
+本爬虫代码仅供科研使用，请勿用于任何非科研和非法用途。
+有问题请和姚尧博士联系（yaoy@cug.edu.cn).
 
 
 # Baidu Street View Spider
@@ -88,3 +91,8 @@ This folder mainly contains a script file for getting street view and an output 
 [3] Yao, Y., Wang, J., Hong, Y., Qian, C., Guan, Q., Liang, X., ... & Zhang, J. (2021). Discovering the homogeneous geographic domain of human perceptions from street view images. Landscape and Urban Planning, 212, 104125.
 
 [4] Yao, Y., Zhang, J., Qian, C., Wang, Y., Ren, S., Yuan, Z., & Guan, Q. (2021). Delineating urban job-housing patterns at a parcel scale with street view imagery. International Journal of Geographical Information Science, 35(10), 1927-1950.
+
+
+## Declaration
+This code is for scientific use only, please do not use it for any non-scientific or illegal purposes.
+Please contact Dr Yao Yao (yaoy@cug.edu.cn) if you have any questions.
