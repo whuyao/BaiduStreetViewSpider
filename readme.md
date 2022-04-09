@@ -45,6 +45,7 @@
 
 ## 声明
 本爬虫代码仅供科研使用，请勿用于任何非科研和非法用途。
+
 有问题请和姚尧博士联系（yaoy@cug.edu.cn).
 
 
@@ -95,4 +96,5 @@ This folder mainly contains a script file for getting street view and an output 
 
 ## Declaration
 This code is for scientific use only, please do not use it for any non-scientific or illegal purposes.
+
 Please contact Dr Yao Yao (yaoy@cug.edu.cn) if you have any questions.
