@@ -6,7 +6,7 @@ import csv
 import traceback
 
 
-# 写 csv
+# read csv
 def write_csv(filepath, data, head=None):
     if head:
         data = [head] + data
@@ -16,7 +16,7 @@ def write_csv(filepath, data, head=None):
             writer.writerow(i)
 
 
-# 读 csv
+# write csv
 def read_csv(filepath):
     data = []
     if os.path.exists(filepath):
@@ -32,7 +32,7 @@ def read_csv(filepath):
 
 def grab_img_baidu(_url, _headers=None):
     if _headers == None:
-        # 设置请求头
+        # 设置请求头 request header
         headers = {
             "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
             "Referer": "https://map.baidu.com/",
@@ -50,7 +50,7 @@ def grab_img_baidu(_url, _headers=None):
 
 
 def openUrl(_url):
-    # 设置请求头
+    # 设置请求头 request header
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
     }
@@ -62,7 +62,7 @@ def openUrl(_url):
 
 
 def getPanoId(_lng, _lat):
-    # 获取百度街景中的svid
+    # 获取百度街景中的svid get svid of baidu streetview
     url = "https://mapsv0.bdimg.com/?&qt=qsdata&x=%s&y=%s&l=17.031000000000002&action=0&mode=day&t=1530956939770" % (
         str(_lng), str(_lat))
     response = openUrl(url).decode("utf8")
@@ -79,7 +79,7 @@ def getPanoId(_lng, _lat):
 
 
 # 官方转换函数
-# 因为百度街景获取时采用的是经过二次加密的百度墨卡托投影bd09mc
+# 因为百度街景获取时采用的是经过二次加密的百度墨卡托投影bd09mc (Change wgs84 to baidu09)
 def wgs2bd09mc(wgs_x, wgs_y):
     # to:5是转为bd0911，6是转为百度墨卡托
     url = 'http://api.map.baidu.com/geoconv/v1/?coords={}+&from=1&to=6&output=json&ak={}'.format(
@@ -114,13 +114,13 @@ if __name__ == "__main__":
     error_img = []
     # 记录没有svid的位置
     svid_none = []
-    headings = ['0', '90', '180', '270']
+    headings = ['0', '90', '180', '270'] # directions, 0 is north
     pitchs = '0'
 
     count = 1
     # while count < 210:
     for i in range(len(data)):
-        print('当前处理到了第{}个点'.format(i + 1))
+        print('Processing No. {} point...'.format(i + 1))
         # gcj_x, gcj_y, wgs_x, wgs_y = data[i][0], data[i][1], data[i][2], data[i][3]
         wgs_x, wgs_y = data[i][15], data[i][16]
 
